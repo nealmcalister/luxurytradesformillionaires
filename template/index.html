@@ -71,6 +71,26 @@
   a:active.navi {
     color: darkgreen
   }
+  div.img {
+    margin: 5px;
+    float: left;
+    width: 23.5%;
+  }
+  div.img:hover {
+    border: 1px solid green;
+  }
+  div.img img {
+    width: 100%;
+    height: 150px;
+  }
+  div.desc {
+    padding: 5px;
+    text-align: center;
+    font-family: "bookman old style";
+    font-size: 10pt;
+    color: green;
+    background-color: lightblue;
+    }
   </style>
 </head>
 
@@ -170,6 +190,41 @@
     </div>
   </div>
 
+  <!--collagepic 1:.5-->
+  <div class="row">
+    <div class="container-fluid" style="background-color:#d6eff5">
+
+    <!--Column 1-->
+    <div class="col-md-1" "col-sm-1" "col-xs-0">
+        </div>
+
+    <!--Column 2-->
+    <div class="col-md-10" "col-sm-10" "col-xs-12">
+      <div class="panel panel-default" style="background-color:tan;">
+        <div class="panel-body">
+          <!--imgs here-->
+          <div class="row">
+            <div class="col-md-8" "col-sm-10" "col-xs-12">
+              <img src="sampleimg.jpg" alt="sample image" style="width:100%;height:100%;"></img>
+              <div id="caption">The Villa</div>
+            </div>
+            <div class="col-md-4" "col-sm-2" "col-xs-12" >
+              <img src="sampleimg.jpg" alt="sample image" style="width:100%;height:100%;"></img>
+                <div id="caption">The Villa</div>
+            </div>
+        </div>
+      </div>
+      </div>
+
+    <!--Column 3-->
+      <div class="col-md-1" "col-sm-1" "col-xs-0">
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
   <!--collagepic 1:1-->
   <div class="row">
     <div class="container-fluid" style="background-color:#d6eff5">
@@ -202,6 +257,63 @@
         </div>
       </div>
       </div>
+
+      <!--image gallery-->
+      <div class="row">
+        <div class="container-fluid" style="background-color:#d6eff5">
+
+       <!--Column 1-->
+       <div class="col-md-1" "col-sm-1" "col-xs-0">
+        </div>
+
+       <!--Column 2-->
+       <div class="col-md-10" "col-sm-10" "col-xs-12">
+        <br>
+        <div class="panel panel-default" style="background-color:tan;">
+          <div class="panel-body">
+
+
+            <div class="img">
+              <a target="_blank" href="sampleimg.jpg">
+                <img src="sampleimg.jpg" alt="Fjords" width="100%" height="100%">
+              </a>
+              <div class="desc">The Villa</div>
+            </div>
+
+            <div class="img">
+              <a target="_blank" href="forest.jpg">
+                <img src="sampleimg.jpg" alt="Forest" width="100%" height=300>
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+
+            <div class="img">
+              <a target="_blank" href="lights.jpg">
+                <img src="sampleimg.jpg" alt="Northern Lights" width="100%" height=300>
+              </a>
+              <div class="desc">the villa</div>
+            </div>
+
+            <div class="img">
+              <a target="_blank" href="mountains.jpg">
+                <img src="sampleimg.jpg" alt="Mountains" width="100%" height=300>
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+
+
+          </div>
+        </div>
+        </div>
+
+       <!--Column 3-->
+       <div class="col-md-1" "col-sm-1" "col-xs-0">
+        </div>
+      </div>
+        </div>
+
+
+
 
 
 <div id="divider" class="container-fluid" style="background-color:tan">
